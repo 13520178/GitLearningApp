@@ -22,10 +22,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="XOD-yN-BvN">
+                                <rect key="frame" x="24" y="83" width="345" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="XOD-yN-BvN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="7ZG-sg-QYq"/>
+                            <constraint firstItem="XOD-yN-BvN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="F4k-qu-26Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XOD-yN-BvN" secondAttribute="trailing" constant="24" id="XHq-lA-Upa"/>
                             <constraint firstItem="qst-Jq-AJr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="azv-Z4-fR1"/>
                             <constraint firstItem="qst-Jq-AJr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i6u-nS-YlL"/>
                         </constraints>
