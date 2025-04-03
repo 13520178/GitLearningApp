@@ -1,0 +1,15 @@
+
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.DS_Store
+
+# Swift Package Manager
+.build/
+.packages/
+
+# Personal settings
+*.xcuserdata
+
